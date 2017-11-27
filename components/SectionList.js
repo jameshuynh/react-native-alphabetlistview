@@ -194,8 +194,10 @@ const styles = StyleSheet.create({
     position: 'absolute',
     backgroundColor: 'transparent',
     alignItems:'flex-end',
-    justifyContent:'flex-start',
-    right: 5,
+    right: 0,
+    paddingRight: 10,
+    paddingLeft: 10,
+    justifyContent: 'flex-start',
     top: 0,
     bottom: 0
   },

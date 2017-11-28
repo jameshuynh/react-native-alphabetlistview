@@ -26,9 +26,7 @@ const isIPhoneX = () => {
   )
 }
 
-const isAndroid = () => {
-  return Platform.OS === 'android'
-}
+const returnTrue = () => true
 
 export default class SectionList extends Component {
   constructor(props, context) {

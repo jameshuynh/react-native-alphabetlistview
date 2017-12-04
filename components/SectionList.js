@@ -26,8 +26,6 @@ const isIPhoneX = () => {
   )
 }
 
-const returnTrue = () => true
-
 export default class SectionList extends Component {
   constructor(props, context) {
     super(props, context)
